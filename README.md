@@ -34,6 +34,8 @@ For the folders structural architecture  I'm using the strategy of 7-1 pattern, 
   
   - space-dog.scss
 
+This structure was think to make the framework really scalable.
+
 ## Colors
 
 Wen I was starting to learn code and all about a great design the use of colors was always a huge deal, so to make things easy I create a hole mixing with a FlatUI design colors and a tone of grey for the main text color with i change depending on the project. The colors are:
@@ -162,4 +164,8 @@ You can see the color reference bellow:
 
 ![](/home/fernando/Documents/Web%20development/space-dog/img/Flat%20UI%20Colors%20-%20Color%20Palettes.png)
 
+## Grid system
 
+Since this started as a way to learn and be better at css and html there is 3 grid systens, float (most common), flexbox and css grid. So in the begin of the project all that you have to do is to choose the ones that you want to use and import into de main scss style.
+
+Since one of the standards width for the grid is 1140px this is what I'm using. Just remmenbering that all the code is mobile friendly. I'm not using the 12 col grid, instead I'm using a 4 col layout as you can see on the html template.
