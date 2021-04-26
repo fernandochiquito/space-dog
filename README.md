@@ -166,6 +166,6 @@ You can see the color reference bellow:
 
 ## Grid system
 
-Since this started as a way to learn and be better at css and html there is 3 grid systens, float (most common), flexbox and css grid. So in the begin of the project all that you have to do is to choose the ones that you want to use and import into de main scss style.
+There is no grid system since the recomendation is to use CSS Grid. Today all the major browser on desktop and on pc acept.
 
-Since one of the standards width for the grid is 1140px this is what I'm using. Just remmenbering that all the code is mobile friendly. I'm not using the 12 col grid, instead I'm using a 4 col layout as you can see on the html template.
+I have plans to create a 12 grid layout using flexbox.

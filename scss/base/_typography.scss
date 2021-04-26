@@ -6,3 +6,19 @@ body {
   font-weight: 400;
   line-height: 1.7;
 }
+
+.textimg-bgr {
+  color: $mainBlack;
+  font-size: 5rem;
+  display: inline-block;
+  width: 90%;
+  margin: 0 auto;
+  background-image: linear-gradient(to bottom right, $mainYellow, $mainBlack);
+  background-clip: text;
+  color: transparent;
+  transition: all .2s;
+
+  &:hover{
+    text-shadow: .5rem 1rem 2rem rgba($color: $colorMidnightBlue, $alpha: .20);
+}
+}

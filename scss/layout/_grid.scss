@@ -1,3 +1,8 @@
+section{ 
+  width: 100%;
+  padding: 3rem;
+}
+
 .row {
   max-width: $grid-width;
   background-color: $colorCloud;
@@ -7,7 +12,7 @@
     margin-bottom: $gutter-vertical;
   }
 
-  @include clearfix 
+  @include clearfix;
   
   [class^= "col-" ] {
     background: $colorBelizeHole;
@@ -40,5 +45,31 @@
 
   .col-3-of-4 {
     width: calc(((100% - (#{$gutter-horizontal} * 3)) / 4)* 3 + (2 * #{$gutter-horizontal}));
+  }
+}
+
+.grid {
+  margin: 0 auto;
+  background-color: $colorTurquoise;
+
+  &-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    color: $colorCloud;
+  
+    &__item{
+      background-color: $colorMidnightBlue;
+    }
+  }
+}
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  p {
+    font-size: 2rem;
+    color: $colorCloud;
+    margin-bottom: 3rem;
   }
 }

@@ -16,6 +16,11 @@ body {
   box-sizing: border-box;
 }
 
+::selection {
+  background-color: $mainYellow;
+  color: $mainBlack;
+}
+
 a {
   text-decoration: none;
 }
@@ -24,7 +29,13 @@ img {
   height: auto;
   max-width: 100%;
 }
+  // Definition of 1 rem to 10px
 
+ol,  // Definition of 1 rem to 10px
 ul {
   list-style: none;
+}
+
+ion-icon {
+  font-size: 5rem;
 }
